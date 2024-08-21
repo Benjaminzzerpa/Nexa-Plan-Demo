@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'votorantim-sans';
+    src: url('../fonts/votorantim-font.ttf') format('truetype');
+}
+
+main {
+    flex: 1;
+    background-color: rgb(243 244 246);
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'votorantim-sans', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bg-nexa-orange {
+    background-color: #EA5B0B;
+}
+
+.text-nexa-orange {
+    color: #EA5B0B;
+}
+
+.text-nexa-gray {
+    color: #1E1E1E;
+}
+
+.bg-nexa-yellow {
+    color: #F9C83E;
+}
